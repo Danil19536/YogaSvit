@@ -1,6 +1,6 @@
 // import { qs, qsa, $on, $delegate } from './utils';
 
-import '../stylesheets/style.scss';
+// import '../stylesheets/style.scss';
 import _get from 'lodash/get';
 
 let arrLang = {
