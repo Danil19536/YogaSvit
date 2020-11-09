@@ -1,0 +1,82 @@
+<header class="header">
+    <div class="container">
+        <div class="header__body">
+
+            <a href="#" class="header__logo">
+                <img src="./images/Yoga_logo.png" alt="*">
+            </a>
+
+            <span class="nameLogo"> YogaSvit</span>
+
+
+            <div class="header__burger">
+                <span></span>
+            </div>
+
+            <nav class="header__menu">
+
+                <ul class="header__list">
+                    <li>
+                        <a href="./index.html" key="header.home" class="header__link lang">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="./classesTable.html" key="header.classes" class="header__link lang">Classes</a>
+                    </li>
+
+                    <li>
+                        <a href="./workshopListindex.html" key="title.workshopList" class="header__link lang">workshopList</a>
+                    </li>
+
+                    <li>
+                        <a href="./blog.html" key="header.blog" class="header__link lang">blog</a>
+                    </li>
+
+                    <li>
+                        <a href="./Contactindex.html" key="header.contacts" class="header__link lang">Contasct</a>
+                    </li>
+                </ul>
+
+
+
+            </nav>
+
+        </div>
+    </div>
+</header>
+
+<script>
+    // after menu loaded add event listener
+    const headerBurger = document.querySelector('.header__burger');
+    const headerMenu = document.querySelector('.header__menu');
+   
+    headerBurger.addEventListener('click',() => { 
+        if(headerBurger.classList.contains('active')) {
+    
+            headerBurger.classList.remove('active');
+            headerMenu.classList.remove('active');
+            // Body.classList.remove('lock');
+        } else {
+            headerBurger.classList.add('active');
+            headerMenu.classList.add('active');
+            // Body.classList.add('lock');
+        }
+    
+    });
+
+</script>
+
+<!-- <div class="menu">
+    <div class="menu-itemLogo">
+        <img src="./images/Yoga_logo.png" alt="*">
+        <span>
+            YogaSvit
+        </span>
+        
+    </div>
+    <div class="menu-item margin-left"> <a key="header.home" class="lang" href="./index.html">Home</a> </div>
+    <div class="menu-item"> <a key="header.classes" class="lang" href="./classesTable.html">classes</a> </div>
+    <div class="menu-item"><a key="header.workshop" class="lang" href="./workshopListindex.html">workshop</a></div>
+    <div class="menu-item"><a key="header.blog" class="lang" href="./blog.html">blog</a></div>
+    <div class="menu-item"> <a key="header.contacts" class="lang" href="./Contactindex.html">contacts</a></div>
+</div> -->
