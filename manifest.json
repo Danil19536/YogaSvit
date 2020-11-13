@@ -1,0 +1,21 @@
+{
+  "app.css": "stylesheets/app.css",
+  "app.js": "scripts/app.js",
+  "fonts/Comfortaa.ttf": "fonts/Comfortaa.ttf",
+  "fonts/MeylingOne.otf": "fonts/MeylingOne.otf",
+  "fonts/MeylingThree.otf": "fonts/MeylingThree.otf",
+  "fonts/MeylingTwo.otf": "fonts/MeylingTwo.otf",
+  "images/YogaImage.jpg": "images/YogaImage.jpg",
+  "images/Yoga_blog.png": "images/Yoga_blog.png",
+  "images/Yoga_logo.png": "images/Yoga_logo.png",
+  "images/google_maps.png": "images/google_maps.png",
+  "images/icon-arrow.png": "images/icon-arrow.png",
+  "images/icon-facebook.png": "images/icon-facebook.png",
+  "images/icon-girlTrainer.jpg": "images/icon-girlTrainer.jpg",
+  "images/icon-instagram.png": "images/icon-instagram.png",
+  "images/icon-trainer.jpg": "images/icon-trainer.jpg",
+  "images/icon-twitter.png": "images/icon-twitter.png",
+  "images/icons-linkedin.png": "images/icons-linkedin.png",
+  "images/workshopLogo.jpg": "images/workshopLogo.jpg",
+  "images/yoga.jpg": "images/yoga.jpg"
+}
