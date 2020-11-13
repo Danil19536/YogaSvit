@@ -9,8 +9,19 @@
 
     <!-- Place favicon.ico in the root directory -->
     <link rel="shortcut icon" href="favicon.ico" />
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./stylesheets/style.scss">
     <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@200;400;600;900&display=swap" rel="stylesheet">
+
+    <!-- You can use open graph tags to customize link previews.
+      Learn more: https://developers.facebook.com/docs/sharing/webmasters -->
+    <meta property="og:url" content="https://github.com/vadimmarkov/webpack-es6-sass-boilerplate" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Webpack ES6+ Sass Boilerplate" />
+    <meta
+      property="og:description"
+      content="A minimalistic webpack 4 based boilerplate for building web apps"
+    />
+    <meta property="og:image" content="https://webpack.js.org/icon_192x192.png" />
 
     <meta name="theme-color" content="#fafafa" />
     <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
@@ -24,24 +35,24 @@
         <div class="bgWorkshop">
   
           <div class="container">
-            
-            <div class="classesTitle">
-              Classes
+  
+            <div key="title.classesTable" class="classesTitle lang">
+              Classes timetable
             </div>
 
           </div>
   
         </div>
   
-      </section> <br>
+      </section>
 
     <section class="classesTimeTable">
 
         <div class="container">
     
-          <div key="title.classesTable" class="timeTableTitle lang">
+          <div key="title.schedule" class="timeTableTitle lang">
     
-            Classes timetable
+            schedule
     
           </div>
     
